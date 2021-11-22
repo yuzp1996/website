@@ -12,7 +12,7 @@ enableGitInfo = true
 # Language settings
 contentDir = "content/en"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
@@ -62,8 +62,15 @@ id = "UA-154682132-1"
 title = "Tekton"
 description = "Cloud Native CI/CD"
 languageName ="English"
+contentDir = 'content/en'
 # Weight used for sorting.
 weight = 1
+[languages.zh]
+title = 'Tekton 官方文档'
+languageName ="中文"
+contentDir = 'content/zh'
+weight = 2
+
 
 # Everything below this are Site Params
 
