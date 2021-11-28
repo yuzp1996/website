@@ -19,3 +19,6 @@ production-build: sync
 .PHONY: preview-build
 preview-build: sync
 	hugo --baseURL $(DEPLOY_PRIME_URL)
+
+start:
+	netlify dev
